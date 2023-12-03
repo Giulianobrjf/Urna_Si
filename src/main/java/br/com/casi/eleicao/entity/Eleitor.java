@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Eleitor extends Pessoa{
-    boolean nulo;
+  private  boolean nulo;
 
     public Eleitor(String nome,String vinculo,String celular, String email, Cargo cargo) {
         super(nome, vinculo, celular, email);

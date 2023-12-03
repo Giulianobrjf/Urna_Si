@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Voto {
-    Candidato candidato;
-    Eleitor eleitor;
+    private Candidato candidato;
+    private Eleitor eleitor;
 }

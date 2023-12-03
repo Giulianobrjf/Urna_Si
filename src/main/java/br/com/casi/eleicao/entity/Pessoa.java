@@ -12,11 +12,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Pessoa {
-    Long id;
-    String nome;
-    String vinculo;
-    String celular;
-    String email;
+   private Long id;
+   private String nome;
+   private String vinculo;
+   private String celular;
+   private String email;
 
     public Pessoa(String nome, String vinculo, String celular, String email) {
         this.nome = nome;

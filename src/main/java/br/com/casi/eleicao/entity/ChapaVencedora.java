@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ChapaVencedora {
 
-String nome;
+    private String nome;
     public void MostrarChapaVencedora(){
 
     }

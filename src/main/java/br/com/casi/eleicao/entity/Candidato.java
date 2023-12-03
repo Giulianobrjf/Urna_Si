@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Candidato extends Pessoa {
-    Cargo cargo;
+    private Cargo cargo;
 
     public Candidato(String nome,String vinculo,String celular, String email, Cargo cargo) {
         super(nome, vinculo, celular, email);
